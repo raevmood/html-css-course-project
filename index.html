@@ -1,24 +1,85 @@
-<a class = "back-to-amazon"
-  href="https://www.amazon.com" target="_blank">
-  Back to Amazon 
-</a>
+<style>
+  .subscribe-button {
+    background-color: rgb(204, 0, 0);
+    color:white;
+    border: none;
+    border-radius: 2px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    cursor: pointer;
+    margin-right: 12px;
+    transition: opacity 0.15s;
+    line-height: normal;
+    font-size: 14px;
+    vertical-align: top;
+  }
 
-<p class = "product-title">
-  Nike Black Running Shoes
-</p>
+  .subscribe-button:hover {
+    opacity: 0.8;
+  }
 
-<p class = "product-description">
-  $39 - In Stock
-</p>
+  .subscribe-button:active {
+    opacity: 0.5;
+  }
 
-<p class = "product-description 2">
-  Free Delivery Tomorrow
-</p>
+  .join-button {
+    background-color: white;
+    border-color: rgb(6, 95, 212);
+    border-style: solid;
+    border-width: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 9px;
+    padding-top: 9px;
+    color: rgb(6, 95, 212);
+    border-radius: 2px;
+    cursor: pointer;
+    transition: background-color 0.15s, color 0.15s;
+    vertical-align: top;
+  }
 
-<button class = "add-button">
-  Add to Cart
+  .join-button:hover {
+    background-color: rgb(6, 95, 212);
+    color: white;
+  }
+
+  .join-button:active {
+    opacity: 0.6;
+  }
+
+  .tweet-button {
+    background-color: rgb(29, 155, 240);
+    color: white;
+    border: none;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 7px;
+    padding-top: 7px;
+    border-radius: 50px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 22.5px;
+    margin-left: 12px;
+    transition: box-shadow 0.15s;
+    vertical-align: top;
+  }
+
+  .tweet-button:hover {
+      box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+  }
+</style>
+
+<button class="subscribe-button">
+  SUBSCRIBE
 </button>
 
-<button class = "buy-button">
-  Buy Now
+<button class="join-button">
+  JOIN
+</button>
+
+<button class="tweet-button">
+  Tweet
 </button>
